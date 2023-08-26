@@ -4,11 +4,14 @@ from abc import ABC
 
 from car import Car
 
+from battery.battery import Battery
+
+
 
 class SternmanEngine(Car, ABC):
     """tells service date and warning light status for Sterman engine"""
     def __init__(self, last_service_date, warning_light_is_on):
-        super().__init__(last_service_date)
+        super().__init__(last_service_date, Battery)
         self.warning_light_is_on = warning_light_is_on
 
     def engine_should_be_serviced(self) -> bool:

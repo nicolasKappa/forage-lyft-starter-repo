@@ -1,7 +1,10 @@
+"""nubbin batterys last service date. according to time usage
+    tells wether it should be changed ot not"""
 from battery.battery import Battery
 from utils import add_years_to_date
 
 class NubbinBattery(Battery):
+    """battery info for current date and last service"""
     def __init__(self, current_date, last_service_date):
         self.current_date = current_date
         self.last_service_date = last_service_date

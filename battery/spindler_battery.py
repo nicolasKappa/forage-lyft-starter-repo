@@ -1,8 +1,14 @@
+"""imports info how dates should be added and info about
+spindel batterys service
+"""
+
 from battery.battery import Battery
 from utils import add_years_to_date
 
 
 class SpindlerBattery(Battery):
+    """spindel batterys last service date. according to time usage
+    tells wether it should be changed ot not"""
     def __init__(self, current_date, last_service_date):
         self.current_date = current_date
         self.last_service_date = last_service_date
@@ -13,3 +19,4 @@ class SpindlerBattery(Battery):
             return True
         else:
             return False
+        
