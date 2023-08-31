@@ -7,3 +7,4 @@ class Serviceable(ABC):
     @abstractmethod
     def needs_service(self):
         """tells if car needs service"""
+        pass
