@@ -1,7 +1,5 @@
 from tyre.tyres import TYRE
 """imports Tyre class from tyre file"""
-
-
 class CariganTyre(TYRE):
     """for only carigan_tyre system, helps when service is necessary"""
     
