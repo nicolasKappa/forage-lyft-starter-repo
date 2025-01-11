@@ -44,30 +44,31 @@ Make sure you have Python installed on your system. You can download it from [he
 
 ### Installation:
 
-Clone the repository:
-```bash
+- * Clone the repository:
+```
 - *git clone https://github.com/yourusername/Lyft-Task.git
+```
 
-- *Navigate to the project folder:
-
+- * Navigate to the project folder:
+```
 cd Lyft-Task
-Install any dependencies (if applicable) using:
-
+```
+- * Install any dependencies (if applicable) using:
+```
 pip install -r requirements.txt
+```
 
-Running the Project:
-To create a car and test the components, you can run the car.py script. It will simulate assembling a car with different engines, batteries, and tyres.
+### Running the Project:
+- *To create a car and test the components, you can run the car.py script. It will simulate assembling a car with different engines, batteries, and tyres.
 
-python car.py
-Testing:
+- *python car.py
+ ### Testing:
 Use pytest or another testing framework to test the components:
 
-pytest test
-Usage:
-Battery Models: You can choose different battery models like NuubbinBattery or SpindlerBattery.
-Engine Models: Choose between CapuletEngine, SternmanEngine, or WilloughbyEngine.
-Tyre Models: Select from CariganTyre, OctopryimeTyre, and others.
-You can customize and test different combinations of these components to simulate various cars.
-
-
-You can now paste this directly into your README.md file! Let me know if you need any changes or further explanations.
+ ### pytest test
+- * Usage:
+- *Battery Models: You can choose different battery models like NuubbinBattery or SpindlerBattery.
+- *Engine Models: Choose between CapuletEngine, SternmanEngine, or WilloughbyEngine.
+- *Tyre Models: Select from CariganTyre, OctopryimeTyre, and others.
+ ### License
+* This project is licensed under the MIT License - see the LICENSE file for details.
