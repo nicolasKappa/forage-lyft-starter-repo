@@ -71,4 +71,5 @@ Use pytest or another testing framework to test the components:
 - * Engine Models: Choose between CapuletEngine, SternmanEngine, or WilloughbyEngine.
 - * Tyre Models: Select from CariganTyre, OctopryimeTyre, and others.
  ### License
+ ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 - * This project is licensed under the MIT License - see the LICENSE file for details.
