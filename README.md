@@ -46,7 +46,7 @@ This project models a car service with multiple components like **battery**, **e
 
 - * Clone the repository:
 ```
-- git clone https://github.com/yourusername/Lyft-Task.git
+git clone https://github.com/yourusername/Lyft-Task.git
 ```
 
 - * Navigate to the project folder:
