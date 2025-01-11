@@ -46,8 +46,9 @@ Make sure you have Python installed on your system. You can download it from [he
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Lyft-Task.git
-Navigate to the project folder:
+- *git clone https://github.com/yourusername/Lyft-Task.git
+
+- *Navigate to the project folder:
 
 cd Lyft-Task
 Install any dependencies (if applicable) using:
