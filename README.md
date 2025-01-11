@@ -66,9 +66,9 @@ pip install -r requirements.txt
 Use pytest or another testing framework to test the components:
 
  ### pytest test
-- * Usage:
+- Usage:
 - *Battery Models: You can choose different battery models like NuubbinBattery or SpindlerBattery.
 - *Engine Models: Choose between CapuletEngine, SternmanEngine, or WilloughbyEngine.
 - *Tyre Models: Select from CariganTyre, OctopryimeTyre, and others.
  ### License
-* This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
